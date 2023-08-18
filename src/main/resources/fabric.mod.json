@@ -9,7 +9,9 @@
     "tildejustin"
   ],
   "contact": {
-    "sources": "https://github.com/tildejustin/motioNO"
+    "homepage": "https://modrinth.com/mod/legacy-motioNO",
+    "sources": "https://github.com/tildejustin/legacy-motioNO",
+    "issues": "https://github.com/tildejustin/legacy-motioNO/issues"
   },
   "license": "MIT",
   "environment": "client",
