@@ -2,8 +2,6 @@
   "required": true,
   "package": "link.infra.motiono.mixin",
   "compatibilityLevel": "JAVA_8",
-  "mixins": [
-  ],
   "client": [
     "ClientPlayerEntityMixin"
   ],
