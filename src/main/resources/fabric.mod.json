@@ -1,32 +1,24 @@
 {
-	"schemaVersion": 1,
-	"id": "motiono",
-	"version": "${version}",
-	"name": "motioNO",
-	"description": "Stops Minecraft from changing the FoV when running, using potions and bows, etc.",
-	"authors": [
-		"comp500"
-	],
-	"contact": {
-		"homepage": "https://www.curseforge.com/minecraft/mc-mods/motiono",
-		"sources": "https://github.com/comp500/motioNO"
-	},
-	"license": "MIT",
-	"icon": "assets/motiono/icon.png",
-	"environment": "client",
-	"mixins": [
-		"motiono.mixins.json"
-	],
-	"entrypoints": {
-		"modmenu": [
-			"link.infra.motiono.config.ModMenuEntrypoint"
-		]
-	},
-	"depends": {
-		"fabricloader": ">=0.8.2+build.194",
-		"minecraft": ">=1.16-alpha.20.14.a"
-	},
-	"custom": {
-		"modmenu:clientsideOnly": true
-	}
+  "schemaVersion": 1,
+  "id": "motiono",
+  "version": "${version}",
+  "name": "motioNO",
+  "description": "Stops Minecraft from changing the FoV when running, using potions and bows, etc.",
+  "authors": [
+    "comp500"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/comp500/motioNO"
+  },
+  "license": "MIT",
+  "icon": "assets/motiono/icon.png",
+  "environment": "client",
+  "mixins": [
+    "motiono.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.2+build.194",
+    "minecraft": ">=1.14 <1.16.2"
+  }
 }
